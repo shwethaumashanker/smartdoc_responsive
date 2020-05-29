@@ -1,0 +1,317 @@
+body {
+    font-family: 'Overpass';
+    font-style: normal;
+    padding-top: 100px;
+}
+
+
+.navbar-light,.navbar-nav{
+font-weight: 800;
+font-size: 14px;
+line-height: 100.5%;
+/* identical to box height, or 14px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.155em;
+
+/* #0C0A3C */
+
+color: #0C0A3C !important;
+opacity: 1;
+}
+
+.nav-link{
+  display: inline-block;
+  position: relative;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 2px;
+  content: "";
+  position: absolute;
+  background-color: #0C0A3C;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 5px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+.nav-link-white{
+  display: inline-block;
+  position: relative;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.nav-link-white:hover {
+  opacity: 1;
+}
+
+.nav-link-white::before {
+  transition: 300ms;
+  height: 2px;
+  content: "";
+  position: absolute;
+  background-color: white;
+}
+
+.nav-link-ltr-white::before {
+  width: 0%;
+  bottom: 5px;
+}
+
+.nav-link-ltr-white:hover::before {
+  width: 100%;
+}
+.sidetext{
+    padding-left: 100px;
+   
+}
+
+.rec{
+position: absolute;
+margin-top: 35px;
+width: 425px;
+height: 500px;
+background: linear-gradient(74.96deg, #79A7FF 46.25%, #BAEEFF 85.09%);
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.title{
+font-weight: 900;
+color: #0C0A3C;
+font-family: Overpass;
+font-style: normal;
+font-size: 4.84375vw;
+line-height: 100.5%;
+}
+
+.text{
+  font-weight: normal;
+  font-size:1.413359vw;
+  color: #0C0A3C;
+  opacity: 0.6;
+  line-height: 143%;
+}
+
+.text1{
+  font-weight: normal;
+  font-size:1.413359vw;
+  color: #0C0A3C;
+  line-height: 143%;
+  padding-bottom: 3vw;
+}
+
+.text2{
+  font-weight: normal;
+  font-size:1.413359vw;
+  color: #0C0A3C;
+  line-height: 143%;
+  font-size: 1.7257vw;
+  padding-bottom: 3vw;
+}
+
+.text3{
+  font-weight: normal;
+  font-size:1.413359vw;
+  color: #0C0A3C;
+  line-height: 143%;
+  font-size: 1.7257vw;
+  font-weight: bold;
+}
+
+.text4{
+font-weight: 900;
+font-size: 2.03125vw;
+line-height: 100.5%;
+text-align: center;
+color: #0C0A3C;
+}
+
+.text5{
+font-size: 1vw;
+line-height: 128.5%;
+text-align: center;
+color: #0C0A3C;
+  
+  }
+
+.circlek{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #4da6ff;
+}
+
+
+.blue {
+  margin-top: 20px;
+  background: #3EB2EF;
+}
+.blue .circle {
+  background: #3EB2EF;
+  border-color: #3EB2EF;
+}
+
+.line{
+  border-right: 1px solid #C4C4C4;
+  height: 100%;
+  z-index: 1
+}
+
+.covid_analysis{
+background: #00CEB5;
+border-radius: 79.1892px;
+font-style: normal;
+font-weight: 900;
+font-size: 1.5vw;
+line-height: 100.5%;
+display: block;
+align-items: center;
+text-align: center;
+padding:15px;
+color: #FFFFFF;
+}
+
+.see_doctor{
+border: 1.75976px solid #121061;
+box-sizing: border-box;
+border-radius: 79.1892px;
+font-weight: 900;
+font-size: 1.5vw;
+line-height: 100.5%;
+padding:15px;
+display: block;
+align-items: center;
+color: #121061;
+}
+
+.icon-image{
+  width: 100%;
+  height: 50px;
+}
+
+.icon-image .img-fluid {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.card-img-top{
+  width:100%;
+  height:auto;
+}
+.header{
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 114%;
+  font-size: 2.34375vw;
+  color:#0C0A3C;;
+}
+
+.copyright{
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+
+/* #0C0A3C */
+
+color: #0C0A3C;
+opacity: 0.7;
+}
+
+.button{
+font-size: 19px;
+line-height: 150%;
+}
+.topic{
+font-family: Overpass;
+font-style: normal;
+font-weight: 900;
+font-size: 4.84375vw;
+line-height: 100.5%;
+/* or 62px */
+
+text-align: center;
+
+/* #0C0A3C */
+
+color: #0C0A3C;
+}
+
+.Responsive
+{
+  height: 50px;
+}
+
+.p-5
+{
+  padding: 3vw !important;
+}
+
+.p-2
+{
+  padding: .5vw!important;
+}
+
+.p-3
+{
+  padding: 1vw!important;
+}
+
+
+@media (max-width: 978px) {
+  .covid_analysis{
+    padding: 5px;
+  }
+
+  .see_doctor{
+    padding: 5px;
+  }
+
+  br{
+    line-height: 150%;
+  }
+
+  .Responsive
+  {
+    height: 20px;
+  }
+  
+}
+
+@media (max-width: 850px) {
+ 
+  .navbar:not(.top-nav-collapse) {
+      background: white !important;
+  }
+  body{
+    padding-top: 100px !important;
+  }
+  .nav-link-white::before {
+    background-color: #0C0A3C;
+  }
+
+  .nav-link-white{
+    color: #0C0A3C !important;
+  }
+
+}
