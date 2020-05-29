@@ -1,0 +1,1 @@
+# smartdoc_responsive
