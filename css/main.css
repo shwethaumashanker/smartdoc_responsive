@@ -99,7 +99,7 @@ line-height: 100.5%;
 
 .text{
   font-weight: normal;
-  font-size:1.413359vw;
+  font-size:1.7vw;
   color: #0C0A3C;
   opacity: 0.6;
   line-height: 143%;
@@ -294,6 +294,12 @@ color: #0C0A3C;
   .Responsive
   {
     height: 20px;
+  }
+
+  .Benefits{
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 10px;
   }
   
 }
