@@ -93,7 +93,7 @@ font-weight: 900;
 color: #0C0A3C;
 font-family: Overpass;
 font-style: normal;
-font-size: 4.84375vw;
+font-size: 62px;
 line-height: 100.5%;
 }
 
@@ -279,9 +279,11 @@ color: #0C0A3C;
 
 
 @media (max-width: 978px) {
-
+ .title{
+  font-size: 16px;
+ }
   .text{
-    font-size: 13px;
+    font-size: 12px;
   }
   .covid_analysis{
     padding: 5px;
